@@ -58,9 +58,10 @@ Public Class FormUser
         txtnamaproduk.Text = ""
         txtjumlah.Enabled = False
     End Sub
+
     Sub tampilsosis()
         GVsosis.Rows.Clear()
-        Dim query As String = "Select * From tbproduk where jenis = 'sosis'"
+        Dim query As String = "Select * From tbproduk WHERE jenis LIKE 'sosis' AND nama LIKE '%" & cari & "%'"
         CMD = New MySqlCommand(query, CONN)
         RD = CMD.ExecuteReader()
 
@@ -84,7 +85,7 @@ Public Class FormUser
     End Sub
     Sub tampilnugget()
         GVnugget.Rows.Clear()
-        Dim query As String = "Select * From tbproduk where jenis = 'nugget'"
+        Dim query As String = "Select * From tbproduk WHERE jenis LIKE 'sosis' AND nama LIKE '%" & cari & "%'"
         CMD = New MySqlCommand(query, CONN)
         RD = CMD.ExecuteReader()
 
@@ -313,6 +314,16 @@ Public Class FormUser
                 update_keranjang()
                 updategv()
             End If
+        End If
+    End Sub
+
+    Dim cari As String
+
+    Private Sub txtcari_KeyDown(sender As Object, e As KeyEventArgs) Handles txtcari.KeyDown
+        If e.KeyCode = Keys.Enter Then
+            cari = txtcari.Text
+            tampilsosis()
+            tampilnugget()
         End If
     End Sub
 
