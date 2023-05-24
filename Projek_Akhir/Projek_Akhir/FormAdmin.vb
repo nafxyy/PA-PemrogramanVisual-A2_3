@@ -27,15 +27,15 @@ Public Class FormAdmin
     End Sub
 
     Private Sub sosis_paint(sender As Object, e As PaintEventArgs) Handles btnsosis.Paint
-        e.Graphics.DrawImage(PictureBox2.Image, 247, 279, 50, 215)
-        e.Graphics.DrawImage(PictureBox3.Image, 133, 146, 88, 386)
-        e.Graphics.DrawImage(PictureBox4.Image, 49, 216, 55, 257)
+        e.Graphics.DrawImage(PictureBox2.Image, CInt(btnsosis.Width / 1.4), CInt(btnsosis.Height / 2.2), CInt(btnsosis.Width / 8), CInt(btnsosis.Height / 3.5))
+        e.Graphics.DrawImage(PictureBox3.Image, CInt(btnsosis.Width / 2.7), CInt(btnsosis.Height / 4.2), CInt(btnsosis.Width / 3.5), CInt(btnsosis.Height / 1.75))
+        e.Graphics.DrawImage(PictureBox4.Image, CInt(btnsosis.Width / 7.3), CInt(btnsosis.Height / 3.2), CInt(btnsosis.Width / 6), CInt(btnsosis.Height / 2.5))
     End Sub
 
     Private Sub nugget_paint(sender As Object, e As PaintEventArgs) Handles btnnugget.Paint
-        e.Graphics.DrawImage(PictureBox7.Image, 51, 146, 194, 228)
-        e.Graphics.DrawImage(PictureBox8.Image, 99, 398, 128, 129)
-        e.Graphics.DrawImage(PictureBox9.Image, 260, 338, 75, 76)
+        e.Graphics.DrawImage(PictureBox7.Image, CInt(btnnugget.Width / 7.2), CInt(btnnugget.Height / 4.2), CInt(btnnugget.Height / 3.2), CInt(btnnugget.Height / 3.2))
+        e.Graphics.DrawImage(PictureBox8.Image, CInt(btnnugget.Width / 1.6), CInt(btnnugget.Height / 2), CInt(btnnugget.Height / 7), CInt(btnnugget.Height / 7))
+        e.Graphics.DrawImage(PictureBox9.Image, CInt(btnnugget.Width / 5), CInt(btnnugget.Height / 1.7), CInt(btnnugget.Height / 5), CInt(btnnugget.Height / 5))
     End Sub
 
     Private Sub btnclr_Click(sender As Object, e As EventArgs) Handles btnclr.Click
