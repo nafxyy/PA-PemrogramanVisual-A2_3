@@ -379,7 +379,6 @@ Public Class FormAdmin
                 CMD.Parameters.AddWithValue("@7", newPanjang)
                 CMD.ExecuteNonQuery()
 
-                MsgBox("Tambah Data Berhasil", MsgBoxStyle.Information, "Notifikasi")
                 tampilsosis()
 
                 btnclr_Click(sender, e)
@@ -419,7 +418,6 @@ Public Class FormAdmin
                 CMD.Parameters.AddWithValue("@7", newBentuk)
                 CMD.ExecuteNonQuery()
 
-                MsgBox("Tambah Data Berhasil", MsgBoxStyle.Information, "Notifikasi")
                 tampilnugget()
 
                 btnclr_Click(sender, e)
@@ -440,6 +438,7 @@ Public Class FormAdmin
                 CMD.Parameters.AddWithValue("@7", "sosis")
                 CMD.ExecuteNonQuery()
 
+                MsgBox("Tambah Data Sosis Berhasil", MsgBoxStyle.Information, "INPUT BERHASIL!")
                 tampilsosis()
             ElseIf cbbentuk.Visible = True Then
                 Dim berat, stok, harga As Integer
@@ -456,6 +455,7 @@ Public Class FormAdmin
                 CMD.Parameters.AddWithValue("@7", "nugget")
                 CMD.ExecuteNonQuery()
 
+                MsgBox("Tambah Data Nugget Berhasil", MsgBoxStyle.Information, "INPUT BERHASIL!")
                 tampilnugget()
             End If
         End If
