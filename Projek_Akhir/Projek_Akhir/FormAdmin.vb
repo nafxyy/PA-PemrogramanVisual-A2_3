@@ -21,7 +21,6 @@ Public Class FormAdmin
         Next
     End Sub
 
-
     Private Sub gv_Paint(sender As Object, e As DataGridViewCellPaintingEventArgs) Handles GVnugget.CellPainting, GVsosis.CellPainting, GVriwayat.CellPainting
         e.AdvancedBorderStyle.Bottom = DataGridViewAdvancedCellBorderStyle.Single
     End Sub
@@ -376,9 +375,9 @@ Public Class FormAdmin
                 CMD.Parameters.AddWithValue("@5", newStok)
                 CMD.Parameters.AddWithValue("@6", newHarga)
                 CMD.Parameters.AddWithValue("@7", newPanjang)
-                CMD.ExecuteNonQuery()
-
-                MsgBox("Edit Data Berhasil", MsgBoxStyle.Information, "Notifikasi")
+                If CMD.ExecuteNonQuery() Then
+                    MsgBox("Edit Data Berhasil", MsgBoxStyle.Information, "Notifikasi")
+                End If
                 tampilsosis()
 
                 btnclr_Click(sender, e)
@@ -407,7 +406,7 @@ Public Class FormAdmin
                 Else
                     newHarga = txtharga.Text
                 End If
-                tes.Show()
+
                 CMD = New MySqlCommand("UPDATE tbproduk SET nama=@2,bahan=@3,berat=@4,stok=@5,harga=@6,bentuk=@7,jenis='nugget' where id_produk=@1", CONN)
                 CMD.Parameters.AddWithValue("@1", id)
                 CMD.Parameters.AddWithValue("@2", newNama)
@@ -416,9 +415,9 @@ Public Class FormAdmin
                 CMD.Parameters.AddWithValue("@5", newStok)
                 CMD.Parameters.AddWithValue("@6", newHarga)
                 CMD.Parameters.AddWithValue("@7", newBentuk)
-                CMD.ExecuteNonQuery()
-
-                MsgBox("Edit Data Berhasil", MsgBoxStyle.Information, "Notifikasi")
+                If CMD.ExecuteNonQuery() Then
+                    MsgBox("Edit Data Berhasil", MsgBoxStyle.Information, "Notifikasi")
+                End If
                 tampilnugget()
 
                 btnclr_Click(sender, e)

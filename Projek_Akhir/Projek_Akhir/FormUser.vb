@@ -79,13 +79,22 @@ Public Class FormUser
                 i += 1
             Loop
             RD.Close()
+
+            If GVsosis.RowCount > 0 Then
+                For Each row As DataGridViewRow In GVsosis.Rows
+                    If row.Cells(4).Value = 0 Then
+                        row.DefaultCellStyle.BackColor = Color.FromArgb(190, 30, 45)
+                        row.DefaultCellStyle.ForeColor = Color.White
+                    End If
+                Next
+            End If
         Else
             RD.Close()
         End If
     End Sub
     Sub tampilnugget()
         GVnugget.Rows.Clear()
-        Dim query As String = "Select * From tbproduk WHERE jenis LIKE 'sosis' AND nama LIKE '%" & cari & "%'"
+        Dim query As String = "Select * From tbproduk WHERE jenis LIKE 'nugget' AND nama LIKE '%" & cari & "%'"
         CMD = New MySqlCommand(query, CONN)
         RD = CMD.ExecuteReader()
 
@@ -133,7 +142,7 @@ Public Class FormUser
             RD.Close()
         End If
 
-        If GVkeranjang.RowCount > 0 Then
+        If GVkeranjang.RowCount > index_keranjang Then
             GVkeranjang.Rows(index_keranjang).Selected = True
         End If
         hitungtotal()
@@ -213,6 +222,9 @@ Public Class FormUser
                 id_produk = GVsosis.Rows(rowIndex).Cells(0).Value
                 nama = GVsosis.Rows(rowIndex).Cells(1).Value.ToString()
                 harga = GVsosis.Rows(rowIndex).Cells(5).Value.ToString().Split(" "c)(1)
+                If GVsosis.Rows(rowIndex).Cells(4).Value = 0 Then
+                    ada = False
+                End If
             Else
                 ada = False
             End If
@@ -222,6 +234,9 @@ Public Class FormUser
                 id_produk = GVnugget.Rows(rowIndex).Cells(0).Value
                 nama = GVnugget.Rows(rowIndex).Cells(1).Value.ToString()
                 harga = GVnugget.Rows(rowIndex).Cells(5).Value.ToString().Split(" "c)(1)
+                If GVnugget.Rows(rowIndex).Cells(4).Value = 0 Then
+                    ada = False
+                End If
             Else
                 ada = False
             End If
@@ -229,7 +244,7 @@ Public Class FormUser
 
         If ada Then
             Dim result As DialogResult = MessageBox.Show("Apakah Anda yakin ingin menambahkan " & nama & " ke keranjang?", "Konfirmasi",
-                                                    MessageBoxButtons.YesNo)
+                                                MessageBoxButtons.YesNo)
 
             If result = DialogResult.Yes Then
                 ambil_order()
@@ -244,16 +259,30 @@ Public Class FormUser
                     CMD.Parameters.AddWithValue("@4", 1)
                     CMD.Parameters.AddWithValue("@5", harga)
                     CMD.ExecuteNonQuery()
+                    MsgBox("Produk Berhasil ditambahkan ke keranjang")
                     updategv()
                 Else
                     MsgBox("Produk sudah ada di keranjang")
                 End If
                 RD.Close()
             End If
+        Else
+            MsgBox("Stok Habis!! liat itu ada merah-merah nya woy")
         End If
     End Sub
 
     Dim keranjang_produk, harga, stok As Integer
+
+    Sub ambil_stokharga()
+        CMD = New MySqlCommand("SELECT * FROM tbproduk WHERE id_produk='" & keranjang_produk & "'", CONN)
+        RD = CMD.ExecuteReader()
+        If RD.HasRows Then
+            RD.Read()
+            harga = RD.Item(5)
+            stok = RD.Item(4)
+        End If
+        RD.Close()
+    End Sub
 
     Private Sub GVkeranjang_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles GVkeranjang.CellClick
         If e.RowIndex > -1 Then
@@ -261,15 +290,8 @@ Public Class FormUser
             txtnamaproduk.Text = GVkeranjang.Rows(e.RowIndex).Cells(1).Value.ToString()
             txtjumlah.Text = GVkeranjang.Rows(e.RowIndex).Cells(2).Value.ToString()
             keranjang_produk = GVkeranjang.Rows(e.RowIndex).Cells(0).Value
-            CMD = New MySqlCommand("SELECT * FROM tbproduk WHERE id_produk='" & keranjang_produk & "'", CONN)
-            RD = CMD.ExecuteReader()
-            If RD.HasRows Then
-                RD.Read()
-                harga = RD.Item(5)
-                stok = RD.Item(4)
-            End If
+            ambil_stokharga()
             index_keranjang = e.RowIndex
-            RD.Close()
         End If
     End Sub
 
@@ -280,6 +302,7 @@ Public Class FormUser
             End If
             update_keranjang()
             updategv()
+            GVkeranjang.ClearSelection()
         End If
     End Sub
 
@@ -328,7 +351,7 @@ Public Class FormUser
     End Sub
 
     Private Sub btnhapus_Click(sender As Object, e As EventArgs) Handles btnhapus.Click
-        Dim nama = GVkeranjang.Rows(GVkeranjang.CurrentRow.Index).Cells(1).Value.ToString()
+        Dim nama = GVkeranjang.SelectedRows.Item(0).Cells(1).Value.ToString()
         Dim result As DialogResult = MessageBox.Show("Apakah Anda yakin ingin menghapus " & nama & " dari keranjang?", "Konfirmasi",
                                                      MessageBoxButtons.YesNo, MessageBoxIcon.Question)
 
@@ -337,6 +360,12 @@ Public Class FormUser
             CMD.ExecuteNonQuery()
             bersih()
             updategv()
+            If GVkeranjang.RowCount > 0 Then
+                txtnamaproduk.Text = GVkeranjang.SelectedRows.Item(0).Cells(1).Value.ToString()
+                txtjumlah.Text = GVkeranjang.SelectedRows.Item(0).Cells(2).Value.ToString()
+                keranjang_produk = GVkeranjang.SelectedRows.Item(0).Cells(0).Value
+                ambil_stokharga()
+            End If
         End If
     End Sub
 
