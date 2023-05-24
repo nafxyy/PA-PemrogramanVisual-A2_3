@@ -141,7 +141,7 @@ Public Class FormAdmin
 
     Sub tampilsosis()
         GVsosis.Rows.Clear()
-        Dim query As String = "Select * From tbproduk where jenis = 'sosis'"
+        Dim query As String = "Select * From tbproduk WHERE jenis LIKE 'sosis' AND nama LIKE '%" & cari & "%'"
         CMD = New MySqlCommand(query, CONN)
         RD = CMD.ExecuteReader()
 
@@ -165,7 +165,7 @@ Public Class FormAdmin
     End Sub
     Sub tampilnugget()
         GVnugget.Rows.Clear()
-        Dim query As String = "Select * From tbproduk where jenis = 'nugget'"
+        Dim query As String = "Select * From tbproduk WHERE jenis LIKE 'nugget' AND nama LIKE '%" & cari & "%'"
         CMD = New MySqlCommand(query, CONN)
         RD = CMD.ExecuteReader()
 
@@ -334,7 +334,6 @@ Public Class FormAdmin
     End Sub
 
     Private Sub btnadd_Click(sender As Object, e As EventArgs) Handles btnadd.Click
-
         If pensil1.Visible = True Then
             Dim newNama As String = txtnama.Text
             Dim newBahan As String = txtbahan.Text
@@ -379,6 +378,7 @@ Public Class FormAdmin
                 CMD.Parameters.AddWithValue("@7", newPanjang)
                 CMD.ExecuteNonQuery()
 
+                MsgBox("Edit Data Berhasil", MsgBoxStyle.Information, "Notifikasi")
                 tampilsosis()
 
                 btnclr_Click(sender, e)
@@ -418,6 +418,7 @@ Public Class FormAdmin
                 CMD.Parameters.AddWithValue("@7", newBentuk)
                 CMD.ExecuteNonQuery()
 
+                MsgBox("Edit Data Berhasil", MsgBoxStyle.Information, "Notifikasi")
                 tampilnugget()
 
                 btnclr_Click(sender, e)
@@ -425,6 +426,18 @@ Public Class FormAdmin
                 btndatanug_Click(sender, e)
             End If
         Else
+            For Each tb In New List(Of BunifuMaterialTextbox)({txtnama, txtharga, txtbahan, txtberat, txtstok})
+                If cbbentuk.Visible = True Then
+                    If String.IsNullOrWhiteSpace(tb.Text) Or cbbentuk.Text = "Bentuk" Then
+                        Return
+                    End If
+                Else
+                    If String.IsNullOrWhiteSpace(tb.Text) Or cbpanjang.Text = "Panjang" Then
+                        Return
+                    End If
+                End If
+            Next
+
             Dim panjang As Double
             panjang = Val(cbpanjang.Text)
             If cbpanjang.Visible = True Then
@@ -436,11 +449,11 @@ Public Class FormAdmin
                 CMD.Parameters.AddWithValue("@5", txtharga.Text)
                 CMD.Parameters.AddWithValue("@6", panjang)
                 CMD.Parameters.AddWithValue("@7", "sosis")
-                CMD.ExecuteNonQuery()
-
-                MsgBox("Tambah Data Sosis Berhasil", MsgBoxStyle.Information, "INPUT BERHASIL!")
+                If CMD.ExecuteNonQuery() Then
+                    MsgBox("Tambah Data Berhasil", MsgBoxStyle.Information, "Notifikasi")
+                End If
                 tampilsosis()
-            ElseIf cbbentuk.Visible = True Then
+            Else
                 Dim berat, stok, harga As Integer
                 berat = txtberat.Text
                 stok = txtstok.Text
@@ -453,9 +466,9 @@ Public Class FormAdmin
                 CMD.Parameters.AddWithValue("@5", txtharga.Text)
                 CMD.Parameters.AddWithValue("@6", cbbentuk.Text)
                 CMD.Parameters.AddWithValue("@7", "nugget")
-                CMD.ExecuteNonQuery()
-
-                MsgBox("Tambah Data Nugget Berhasil", MsgBoxStyle.Information, "INPUT BERHASIL!")
+                If CMD.ExecuteNonQuery() Then
+                    MsgBox("Tambah Data Berhasil", MsgBoxStyle.Information, "Notifikasi")
+                End If
                 tampilnugget()
             End If
         End If
@@ -476,7 +489,6 @@ Public Class FormAdmin
         End If
     End Sub
 
-
     Private Sub txtnama_Enter(sender As Object, e As EventArgs) Handles txtnama.Enter
         If pensil1.Visible = True Then
             If txtnama.Text = "Nama : " & tempNama Then
@@ -484,6 +496,7 @@ Public Class FormAdmin
             End If
         End If
     End Sub
+
     Private Sub txtnama_Leave(sender As Object, e As EventArgs) Handles txtnama.Leave
         If pensil1.Visible = True Then
             If txtnama.Text = "" Then
@@ -555,6 +568,16 @@ Public Class FormAdmin
             If txtharga.Text = "" Then
                 txtharga.Text = "Harga : " & tempHarga
             End If
+        End If
+    End Sub
+
+    Dim cari As String
+
+    Private Sub txtcari_KeyDown(sender As Object, e As KeyEventArgs) Handles txtcari.KeyDown
+        If e.KeyCode = Keys.Enter Then
+            cari = txtcari.Text
+            tampilsosis()
+            tampilnugget()
         End If
     End Sub
 

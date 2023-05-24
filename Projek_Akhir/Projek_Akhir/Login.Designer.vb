@@ -59,7 +59,7 @@ Partial Class Login
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(190, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(45, Byte), Integer))
         Me.Label1.Location = New System.Drawing.Point(606, 145)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(245, 65)
+        Me.Label1.Size = New System.Drawing.Size(249, 67)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Welcome"
         '
@@ -174,7 +174,7 @@ Partial Class Login
         Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(190, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(45, Byte), Integer))
         Me.Label3.Location = New System.Drawing.Point(131, 18)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(242, 65)
+        Me.Label3.Size = New System.Drawing.Size(245, 67)
         Me.Label3.TabIndex = 9
         Me.Label3.Text = "Registrasi"
         '
@@ -365,13 +365,15 @@ Partial Class Login
         'btnexit
         '
         Me.btnexit.BackColor = System.Drawing.Color.FromArgb(CType(CType(190, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(45, Byte), Integer))
+        Me.btnexit.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnexit.FlatAppearance.BorderSize = 0
         Me.btnexit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnexit.Font = New System.Drawing.Font("Gill Sans MT", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnexit.Location = New System.Drawing.Point(910, 3)
+        Me.btnexit.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.btnexit.Location = New System.Drawing.Point(930, 10)
         Me.btnexit.Name = "btnexit"
-        Me.btnexit.Size = New System.Drawing.Size(70, 56)
-        Me.btnexit.TabIndex = 61
+        Me.btnexit.Size = New System.Drawing.Size(40, 40)
+        Me.btnexit.TabIndex = 62
         Me.btnexit.Text = "X"
         Me.btnexit.UseVisualStyleBackColor = False
         '
