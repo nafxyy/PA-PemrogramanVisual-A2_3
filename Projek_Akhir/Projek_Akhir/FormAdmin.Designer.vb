@@ -22,12 +22,12 @@ Partial Class FormAdmin
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle11 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle12 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.PanelAdmin = New System.Windows.Forms.Panel()
         Me.Logout = New System.Windows.Forms.PictureBox()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -86,8 +86,8 @@ Partial Class FormAdmin
         Me.sosis1 = New System.Windows.Forms.PictureBox()
         Me.sosis4 = New System.Windows.Forms.PictureBox()
         Me.sosis3 = New System.Windows.Forms.PictureBox()
-        Me.cbpanjang = New System.Windows.Forms.ComboBox()
         Me.cbbentuk = New System.Windows.Forms.ComboBox()
+        Me.cbpanjang = New System.Windows.Forms.ComboBox()
         Me.txtbahan = New Bunifu.Framework.UI.BunifuMaterialTextbox()
         Me.txtharga = New Bunifu.Framework.UI.BunifuMaterialTextbox()
         Me.txtnama = New Bunifu.Framework.UI.BunifuMaterialTextbox()
@@ -471,26 +471,26 @@ Partial Class FormAdmin
         Me.GVsosis.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None
         Me.GVsosis.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.Disable
         Me.GVsosis.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(CType(CType(190, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(45, Byte), Integer))
-        DataGridViewCellStyle7.Font = New System.Drawing.Font("Gill Sans MT", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle7.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle7.Padding = New System.Windows.Forms.Padding(5)
-        DataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(190, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(45, Byte), Integer))
-        DataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.GVsosis.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle7
+        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(CType(CType(190, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(45, Byte), Integer))
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Gill Sans MT", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle1.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle1.Padding = New System.Windows.Forms.Padding(5)
+        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(190, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(45, Byte), Integer))
+        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.GVsosis.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
         Me.GVsosis.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.GVsosis.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.ids, Me.NamaS, Me.BahanS, Me.BeratS, Me.StokS, Me.HargaS, Me.PanjangS})
         Me.GVsosis.Cursor = System.Windows.Forms.Cursors.Default
-        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle8.Font = New System.Drawing.Font("Gill Sans MT", 10.0!)
-        DataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(220, Byte), Integer), CType(CType(60, Byte), Integer), CType(CType(80, Byte), Integer))
-        DataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.GVsosis.DefaultCellStyle = DataGridViewCellStyle8
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Gill Sans MT", 10.0!)
+        DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(220, Byte), Integer), CType(CType(60, Byte), Integer), CType(CType(80, Byte), Integer))
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.GVsosis.DefaultCellStyle = DataGridViewCellStyle2
         Me.GVsosis.Dock = System.Windows.Forms.DockStyle.Fill
         Me.GVsosis.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically
         Me.GVsosis.EnableHeadersVisualStyles = False
@@ -581,26 +581,26 @@ Partial Class FormAdmin
         Me.GVnugget.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None
         Me.GVnugget.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.Disable
         Me.GVnugget.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(CType(CType(190, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(45, Byte), Integer))
-        DataGridViewCellStyle9.Font = New System.Drawing.Font("Gill Sans MT", 10.0!)
-        DataGridViewCellStyle9.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle9.Padding = New System.Windows.Forms.Padding(5)
-        DataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(190, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(45, Byte), Integer))
-        DataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.GVnugget.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle9
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(CType(CType(190, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(45, Byte), Integer))
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Gill Sans MT", 10.0!)
+        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle3.Padding = New System.Windows.Forms.Padding(5)
+        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(190, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(45, Byte), Integer))
+        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.GVnugget.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle3
         Me.GVnugget.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.GVnugget.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.idn, Me.NamaN, Me.BahanN, Me.BeratN, Me.StokN, Me.HargaN, Me.BentukN})
         Me.GVnugget.Cursor = System.Windows.Forms.Cursors.Default
-        DataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle10.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle10.Font = New System.Drawing.Font("Gill Sans MT", 10.0!)
-        DataGridViewCellStyle10.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(220, Byte), Integer), CType(CType(60, Byte), Integer), CType(CType(80, Byte), Integer))
-        DataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.GVnugget.DefaultCellStyle = DataGridViewCellStyle10
+        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle4.Font = New System.Drawing.Font("Gill Sans MT", 10.0!)
+        DataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(220, Byte), Integer), CType(CType(60, Byte), Integer), CType(CType(80, Byte), Integer))
+        DataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.GVnugget.DefaultCellStyle = DataGridViewCellStyle4
         Me.GVnugget.Dock = System.Windows.Forms.DockStyle.Fill
         Me.GVnugget.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically
         Me.GVnugget.EnableHeadersVisualStyles = False
@@ -680,14 +680,15 @@ Partial Class FormAdmin
         '
         'labellihat
         '
-        Me.labellihat.AutoSize = True
+        Me.labellihat.Dock = System.Windows.Forms.DockStyle.Fill
         Me.labellihat.Font = New System.Drawing.Font("Gill Sans MT", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.labellihat.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.labellihat.Location = New System.Drawing.Point(42, 14)
+        Me.labellihat.Location = New System.Drawing.Point(0, 0)
         Me.labellihat.Name = "labellihat"
-        Me.labellihat.Size = New System.Drawing.Size(365, 55)
+        Me.labellihat.Size = New System.Drawing.Size(449, 94)
         Me.labellihat.TabIndex = 20
         Me.labellihat.Text = "Data Produk Sosis"
+        Me.labellihat.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'btnedit
         '
@@ -943,20 +944,6 @@ Partial Class FormAdmin
         Me.sosis3.TabIndex = 44
         Me.sosis3.TabStop = False
         '
-        'cbpanjang
-        '
-        Me.cbpanjang.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.cbpanjang.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.cbpanjang.Font = New System.Drawing.Font("Gill Sans MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbpanjang.ForeColor = System.Drawing.Color.FromArgb(CType(CType(190, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(45, Byte), Integer))
-        Me.cbpanjang.FormattingEnabled = True
-        Me.cbpanjang.Items.AddRange(New Object() {"3.0", "5.0", "7.0", "9.0", "11.0"})
-        Me.cbpanjang.Location = New System.Drawing.Point(205, 485)
-        Me.cbpanjang.Name = "cbpanjang"
-        Me.cbpanjang.Size = New System.Drawing.Size(307, 37)
-        Me.cbpanjang.TabIndex = 43
-        Me.cbpanjang.Text = "Panjang"
-        '
         'cbbentuk
         '
         Me.cbbentuk.FlatStyle = System.Windows.Forms.FlatStyle.Flat
@@ -970,6 +957,20 @@ Partial Class FormAdmin
         Me.cbbentuk.TabIndex = 48
         Me.cbbentuk.Text = "Bentuk"
         Me.cbbentuk.Visible = False
+        '
+        'cbpanjang
+        '
+        Me.cbpanjang.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.cbpanjang.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.cbpanjang.Font = New System.Drawing.Font("Gill Sans MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbpanjang.ForeColor = System.Drawing.Color.FromArgb(CType(CType(190, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(45, Byte), Integer))
+        Me.cbpanjang.FormattingEnabled = True
+        Me.cbpanjang.Items.AddRange(New Object() {"3.0", "5.0", "7.0", "9.0", "11.0"})
+        Me.cbpanjang.Location = New System.Drawing.Point(205, 485)
+        Me.cbpanjang.Name = "cbpanjang"
+        Me.cbpanjang.Size = New System.Drawing.Size(307, 37)
+        Me.cbpanjang.TabIndex = 43
+        Me.cbpanjang.Text = "Panjang"
         '
         'txtbahan
         '
@@ -1071,14 +1072,16 @@ Partial Class FormAdmin
         '
         'labeltambah
         '
-        Me.labeltambah.AutoSize = True
+        Me.labeltambah.Dock = System.Windows.Forms.DockStyle.Fill
         Me.labeltambah.Font = New System.Drawing.Font("Gill Sans MT", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.labeltambah.ForeColor = System.Drawing.Color.Transparent
-        Me.labeltambah.Location = New System.Drawing.Point(15, 26)
+        Me.labeltambah.Location = New System.Drawing.Point(0, 0)
+        Me.labeltambah.Margin = New System.Windows.Forms.Padding(0)
         Me.labeltambah.Name = "labeltambah"
-        Me.labeltambah.Size = New System.Drawing.Size(272, 46)
+        Me.labeltambah.Size = New System.Drawing.Size(320, 100)
         Me.labeltambah.TabIndex = 0
         Me.labeltambah.Text = "Tambah Produk"
+        Me.labeltambah.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'txtberat
         '
@@ -1197,26 +1200,26 @@ Partial Class FormAdmin
         Me.GVriwayat.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None
         Me.GVriwayat.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.Disable
         Me.GVriwayat.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(CType(CType(190, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(45, Byte), Integer))
-        DataGridViewCellStyle11.Font = New System.Drawing.Font("Gill Sans MT", 10.0!)
-        DataGridViewCellStyle11.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle11.Padding = New System.Windows.Forms.Padding(5)
-        DataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(190, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(45, Byte), Integer))
-        DataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.GVriwayat.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle11
+        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(CType(CType(190, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(45, Byte), Integer))
+        DataGridViewCellStyle5.Font = New System.Drawing.Font("Gill Sans MT", 10.0!)
+        DataGridViewCellStyle5.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle5.Padding = New System.Windows.Forms.Padding(5)
+        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(190, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(45, Byte), Integer))
+        DataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.GVriwayat.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle5
         Me.GVriwayat.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.GVriwayat.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.idorder, Me.idakun, Me.tanggal, Me.totalharga, Me.totalitem})
         Me.GVriwayat.Cursor = System.Windows.Forms.Cursors.Arrow
-        DataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle12.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle12.Font = New System.Drawing.Font("Gill Sans MT", 10.0!)
-        DataGridViewCellStyle12.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(220, Byte), Integer), CType(CType(60, Byte), Integer), CType(CType(80, Byte), Integer))
-        DataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.GVriwayat.DefaultCellStyle = DataGridViewCellStyle12
+        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle6.Font = New System.Drawing.Font("Gill Sans MT", 10.0!)
+        DataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(220, Byte), Integer), CType(CType(60, Byte), Integer), CType(CType(80, Byte), Integer))
+        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.GVriwayat.DefaultCellStyle = DataGridViewCellStyle6
         Me.GVriwayat.Dock = System.Windows.Forms.DockStyle.Fill
         Me.GVriwayat.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically
         Me.GVriwayat.EnableHeadersVisualStyles = False
@@ -1351,14 +1354,15 @@ Partial Class FormAdmin
         '
         'Label3
         '
-        Me.Label3.AutoSize = True
+        Me.Label3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label3.Font = New System.Drawing.Font("Gill Sans MT", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.Transparent
-        Me.Label3.Location = New System.Drawing.Point(22, 23)
+        Me.Label3.Location = New System.Drawing.Point(0, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(280, 46)
+        Me.Label3.Size = New System.Drawing.Size(320, 100)
         Me.Label3.TabIndex = 0
         Me.Label3.Text = "Riwayat Pesanan"
+        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'btnexit
         '
@@ -1381,10 +1385,10 @@ Partial Class FormAdmin
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(982, 653)
         Me.Controls.Add(Me.btnexit)
+        Me.Controls.Add(Me.PanelRiwayat)
         Me.Controls.Add(Me.PanelTambahData)
         Me.Controls.Add(Me.PanelLihatData)
         Me.Controls.Add(Me.PanelAdmin)
-        Me.Controls.Add(Me.PanelRiwayat)
         Me.Controls.Add(Me.PanelTambah_Pilih)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "FormAdmin"
@@ -1410,7 +1414,6 @@ Partial Class FormAdmin
         Me.Panel6.ResumeLayout(False)
         CType(Me.GVnugget, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel3.ResumeLayout(False)
-        Me.Panel3.PerformLayout()
         Me.PanelTambahData.ResumeLayout(False)
         CType(Me.pensil4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pensil3, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1425,7 +1428,6 @@ Partial Class FormAdmin
         CType(Me.sosis4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.sosis3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel4.ResumeLayout(False)
-        Me.Panel4.PerformLayout()
         Me.PanelRiwayat.ResumeLayout(False)
         Me.Panel7.ResumeLayout(False)
         CType(Me.GVriwayat, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1436,7 +1438,6 @@ Partial Class FormAdmin
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel2.ResumeLayout(False)
-        Me.Panel2.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
