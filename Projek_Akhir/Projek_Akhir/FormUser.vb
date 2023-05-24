@@ -28,7 +28,6 @@ Public Class FormUser
         PanelKeranjang.Visible = True
         bersih()
         tampilkeranjang()
-        GVkeranjang.ClearSelection()
     End Sub
 
     Private Sub btnproduk_Click(sender As Object, e As EventArgs) Handles btnproduk.Click
@@ -187,7 +186,7 @@ Public Class FormUser
         AddHandler PrintDocument1.PrintPage, AddressOf printDocument1_PrintPage
         AddHandler PrintDocument1.BeginPrint, AddressOf PD_BeginPrint
         PrintPreviewDialog1.Document = PrintDocument1
-        GVkeranjang.ClearSelection()
+        
     End Sub
 
     Sub ambil_order()
@@ -287,10 +286,7 @@ Public Class FormUser
     Private Sub GVkeranjang_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles GVkeranjang.CellClick
         If e.RowIndex > -1 Then
             txtjumlah.Enabled = True
-            txtnamaproduk.Text = GVkeranjang.Rows(e.RowIndex).Cells(1).Value.ToString()
-            txtjumlah.Text = GVkeranjang.Rows(e.RowIndex).Cells(2).Value.ToString()
-            keranjang_produk = GVkeranjang.Rows(e.RowIndex).Cells(0).Value
-            ambil_stokharga()
+            detail_keranjang()
             index_keranjang = e.RowIndex
         End If
     End Sub
@@ -302,7 +298,6 @@ Public Class FormUser
             End If
             update_keranjang()
             updategv()
-            GVkeranjang.ClearSelection()
         End If
     End Sub
 
@@ -350,6 +345,15 @@ Public Class FormUser
         End If
     End Sub
 
+    Sub detail_keranjang()
+        If GVkeranjang.RowCount > 0 Then
+            txtnamaproduk.Text = GVkeranjang.SelectedRows.Item(0).Cells(1).Value.ToString()
+            txtjumlah.Text = GVkeranjang.SelectedRows.Item(0).Cells(2).Value.ToString()
+            keranjang_produk = GVkeranjang.SelectedRows.Item(0).Cells(0).Value
+            ambil_stokharga()
+        End If
+    End Sub
+
     Private Sub btnhapus_Click(sender As Object, e As EventArgs) Handles btnhapus.Click
         Dim nama = GVkeranjang.SelectedRows.Item(0).Cells(1).Value.ToString()
         Dim result As DialogResult = MessageBox.Show("Apakah Anda yakin ingin menghapus " & nama & " dari keranjang?", "Konfirmasi",
@@ -359,13 +363,8 @@ Public Class FormUser
             CMD = New MySqlCommand("DELETE FROM tbkeranjang WHERE id_order='" & id_order & "' AND id_produk='" & keranjang_produk & "'", CONN)
             CMD.ExecuteNonQuery()
             bersih()
+            detail_keranjang()
             updategv()
-            If GVkeranjang.RowCount > 0 Then
-                txtnamaproduk.Text = GVkeranjang.SelectedRows.Item(0).Cells(1).Value.ToString()
-                txtjumlah.Text = GVkeranjang.SelectedRows.Item(0).Cells(2).Value.ToString()
-                keranjang_produk = GVkeranjang.SelectedRows.Item(0).Cells(0).Value
-                ambil_stokharga()
-            End If
         End If
     End Sub
 
