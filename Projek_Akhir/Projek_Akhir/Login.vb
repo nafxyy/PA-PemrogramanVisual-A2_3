@@ -83,7 +83,7 @@ Public Class Login
     End Sub
 
     Private Sub TimerGambarKanan_Tick(sender As Object, e As EventArgs) Handles TimerGambarKanan.Tick
-        Dim targetX As Integer = 485
+        Dim targetX As Integer = Me.Width / 2
         Dim currentX As Integer = gbrlogo.Location.X
         If currentX < targetX Then
             currentX += 20
