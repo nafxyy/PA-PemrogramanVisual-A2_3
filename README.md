@@ -1,2 +1,2 @@
-# Projek-Akhir-PBO
-Projek Akhir PBO
+# Projek Akhir Pemrograman Visual
+Kelompok A2-3 2021
