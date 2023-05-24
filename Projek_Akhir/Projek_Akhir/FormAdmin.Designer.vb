@@ -307,7 +307,7 @@ Partial Class FormAdmin
         'Label1
         '
         Me.Label1.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label1.AutoSize = True
+        Me.Label1.AutoSize = False
         Me.Label1.Font = New System.Drawing.Font("Gill Sans MT", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Label1.Location = New System.Drawing.Point(39, 19)
@@ -315,6 +315,8 @@ Partial Class FormAdmin
         Me.Label1.Size = New System.Drawing.Size(253, 55)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Pilih Produk"
+        Me.label1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'PictureBox7
         '
