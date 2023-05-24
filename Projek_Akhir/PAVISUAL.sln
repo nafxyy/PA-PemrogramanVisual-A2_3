@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PAVISUAL", "Projek_Akhir\PAVISUAL.vbproj", "{4D146A3B-9CFA-4A46-9464-983A1B35F7CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D146A3B-9CFA-4A46-9464-983A1B35F7CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D146A3B-9CFA-4A46-9464-983A1B35F7CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D146A3B-9CFA-4A46-9464-983A1B35F7CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D146A3B-9CFA-4A46-9464-983A1B35F7CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6D2E717-5238-462B-B93F-0E5E4200EE6A}
+	EndGlobalSection
+EndGlobal

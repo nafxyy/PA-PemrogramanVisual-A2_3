@@ -1,0 +1,85 @@
+D:\VB\Projek_Akhir\Projek_Akhir\bin\Debug\Projek_Akhir.exe.config
+D:\VB\Projek_Akhir\Projek_Akhir\bin\Debug\Projek_Akhir.exe
+D:\VB\Projek_Akhir\Projek_Akhir\bin\Debug\Projek_Akhir.pdb
+D:\VB\Projek_Akhir\Projek_Akhir\bin\Debug\Projek_Akhir.xml
+D:\VB\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.vbproj.AssemblyReference.cache
+D:\VB\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.vbproj.SuggestedBindingRedirects.cache
+D:\VB\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.Form1.resources
+D:\VB\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.Resources.resources
+D:\VB\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.vbproj.GenerateResource.cache
+D:\VB\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.vbproj.CoreCompileInputs.cache
+D:\VB\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.exe
+D:\VB\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.xml
+D:\VB\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.pdb
+D:\VB\Projek_Akhir\Projek_Akhir\bin\Debug\Bunifu_UI_v1.5.3.dll
+D:\VB\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.vbproj.CopyComplete
+D:\VB\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.FormAdmin.resources
+C:\Users\Ardi Setyiawan\source\repos\Projek_Akhir\Projek_Akhir\bin\Debug\Projek_Akhir.exe.config
+C:\Users\Ardi Setyiawan\source\repos\Projek_Akhir\Projek_Akhir\bin\Debug\Projek_Akhir.exe
+C:\Users\Ardi Setyiawan\source\repos\Projek_Akhir\Projek_Akhir\bin\Debug\Projek_Akhir.pdb
+C:\Users\Ardi Setyiawan\source\repos\Projek_Akhir\Projek_Akhir\bin\Debug\Projek_Akhir.xml
+C:\Users\Ardi Setyiawan\source\repos\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.vbproj.AssemblyReference.cache
+C:\Users\Ardi Setyiawan\source\repos\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.vbproj.SuggestedBindingRedirects.cache
+C:\Users\Ardi Setyiawan\source\repos\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.Form1.resources
+C:\Users\Ardi Setyiawan\source\repos\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.FormAdmin.resources
+C:\Users\Ardi Setyiawan\source\repos\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.Resources.resources
+C:\Users\Ardi Setyiawan\source\repos\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.vbproj.GenerateResource.cache
+C:\Users\Ardi Setyiawan\source\repos\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.vbproj.CoreCompileInputs.cache
+C:\Users\Ardi Setyiawan\source\repos\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.vbproj.CopyComplete
+C:\Users\Ardi Setyiawan\source\repos\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.exe
+C:\Users\Ardi Setyiawan\source\repos\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.xml
+C:\Users\Ardi Setyiawan\source\repos\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.pdb
+C:\Users\Ardi Setyiawan\source\repos\Projek_Akhir\Projek_Akhir\bin\Debug\mysql.data.dll
+E:\aftermovie\PA RPL\Projek_Akhir (1)\Projek_Akhir\Projek_Akhir\bin\Debug\Projek_Akhir.exe.config
+E:\aftermovie\PA RPL\Projek_Akhir (1)\Projek_Akhir\Projek_Akhir\bin\Debug\Projek_Akhir.exe
+E:\aftermovie\PA RPL\Projek_Akhir (1)\Projek_Akhir\Projek_Akhir\bin\Debug\Projek_Akhir.pdb
+E:\aftermovie\PA RPL\Projek_Akhir (1)\Projek_Akhir\Projek_Akhir\bin\Debug\Projek_Akhir.xml
+E:\aftermovie\PA RPL\Projek_Akhir (1)\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.vbproj.AssemblyReference.cache
+E:\aftermovie\PA RPL\Projek_Akhir (1)\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.vbproj.SuggestedBindingRedirects.cache
+E:\aftermovie\PA RPL\Projek_Akhir (1)\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.Form1.resources
+E:\aftermovie\PA RPL\Projek_Akhir (1)\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.TambahProduk.resources
+E:\aftermovie\PA RPL\Projek_Akhir (1)\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.LihatData.resources
+E:\aftermovie\PA RPL\Projek_Akhir (1)\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.FormAdmin.resources
+E:\aftermovie\PA RPL\Projek_Akhir (1)\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.Resources.resources
+E:\aftermovie\PA RPL\Projek_Akhir (1)\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.vbproj.GenerateResource.cache
+E:\aftermovie\PA RPL\Projek_Akhir (1)\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.vbproj.CoreCompileInputs.cache
+E:\aftermovie\PA RPL\Projek_Akhir (1)\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.vbproj.CopyComplete
+E:\aftermovie\PA RPL\Projek_Akhir (1)\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.exe
+E:\aftermovie\PA RPL\Projek_Akhir (1)\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.xml
+E:\aftermovie\PA RPL\Projek_Akhir (1)\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.pdb
+C:\Users\Asus\Downloads\Projek_Akhir (1)\Projek_Akhir\Projek_Akhir\bin\Debug\Projek_Akhir.exe.config
+C:\Users\Asus\Downloads\Projek_Akhir (1)\Projek_Akhir\Projek_Akhir\bin\Debug\Projek_Akhir.exe
+C:\Users\Asus\Downloads\Projek_Akhir (1)\Projek_Akhir\Projek_Akhir\bin\Debug\Projek_Akhir.pdb
+C:\Users\Asus\Downloads\Projek_Akhir (1)\Projek_Akhir\Projek_Akhir\bin\Debug\Projek_Akhir.xml
+C:\Users\Asus\Downloads\Projek_Akhir (1)\Projek_Akhir\Projek_Akhir\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\Asus\Downloads\Projek_Akhir (1)\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.vbproj.AssemblyReference.cache
+C:\Users\Asus\Downloads\Projek_Akhir (1)\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.vbproj.SuggestedBindingRedirects.cache
+C:\Users\Asus\Downloads\Projek_Akhir (1)\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.Form1.resources
+C:\Users\Asus\Downloads\Projek_Akhir (1)\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.FormAdmin.resources
+C:\Users\Asus\Downloads\Projek_Akhir (1)\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.Resources.resources
+C:\Users\Asus\Downloads\Projek_Akhir (1)\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.vbproj.GenerateResource.cache
+C:\Users\Asus\Downloads\Projek_Akhir (1)\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.vbproj.CoreCompileInputs.cache
+C:\Users\Asus\Downloads\Projek_Akhir (1)\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.vbproj.CopyComplete
+C:\Users\Asus\Downloads\Projek_Akhir (1)\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.exe
+C:\Users\Asus\Downloads\Projek_Akhir (1)\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.xml
+C:\Users\Asus\Downloads\Projek_Akhir (1)\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.pdb
+C:\Users\Asus\Downloads\Projek_Akhir (1)\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.tes.resources
+C:\Users\Asus\Downloads\Projek_Akhir (1)\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.FormUser.resources
+C:\Users\Ardi Setyiawan\source\repos\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.FormUser.resources
+C:\Users\Ardi Setyiawan\source\repos\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.tes.resources
+C:\Users\VivoBook\source\repos\Projek_Akhir\Projek_Akhir\bin\Debug\Projek_Akhir.exe.config
+C:\Users\VivoBook\source\repos\Projek_Akhir\Projek_Akhir\bin\Debug\Projek_Akhir.exe
+C:\Users\VivoBook\source\repos\Projek_Akhir\Projek_Akhir\bin\Debug\Projek_Akhir.pdb
+C:\Users\VivoBook\source\repos\Projek_Akhir\Projek_Akhir\bin\Debug\Projek_Akhir.xml
+C:\Users\VivoBook\source\repos\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.vbproj.AssemblyReference.cache
+C:\Users\VivoBook\source\repos\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.FormUser.resources
+C:\Users\VivoBook\source\repos\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.FormAdmin.resources
+C:\Users\VivoBook\source\repos\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.Resources.resources
+C:\Users\VivoBook\source\repos\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.tes.resources
+C:\Users\VivoBook\source\repos\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.vbproj.GenerateResource.cache
+C:\Users\VivoBook\source\repos\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.vbproj.CoreCompileInputs.cache
+C:\Users\VivoBook\source\repos\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.vbproj.CopyComplete
+C:\Users\VivoBook\source\repos\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.exe
+C:\Users\VivoBook\source\repos\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.xml
+C:\Users\VivoBook\source\repos\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.pdb
+C:\Users\VivoBook\source\repos\Projek_Akhir\Projek_Akhir\obj\Debug\Projek_Akhir.Login.resources

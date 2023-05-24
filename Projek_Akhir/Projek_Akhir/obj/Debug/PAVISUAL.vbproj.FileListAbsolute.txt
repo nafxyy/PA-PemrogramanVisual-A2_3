@@ -1,0 +1,33 @@
+C:\Users\VivoBook\source\repos\Projek_Akhir\Projek_Akhir\obj\Debug\PAVISUAL.vbproj.AssemblyReference.cache
+C:\Users\VivoBook\source\repos\Projek_Akhir\Projek_Akhir\obj\Debug\PAVISUAL.Login.resources
+C:\Users\VivoBook\source\repos\Projek_Akhir\Projek_Akhir\obj\Debug\PAVISUAL.FormUser.resources
+C:\Users\VivoBook\source\repos\Projek_Akhir\Projek_Akhir\obj\Debug\PAVISUAL.FormAdmin.resources
+C:\Users\VivoBook\source\repos\Projek_Akhir\Projek_Akhir\obj\Debug\PAVISUAL.Resources.resources
+C:\Users\VivoBook\source\repos\Projek_Akhir\Projek_Akhir\obj\Debug\PAVISUAL.tes.resources
+C:\Users\VivoBook\source\repos\Projek_Akhir\Projek_Akhir\obj\Debug\PAVISUAL.vbproj.GenerateResource.cache
+C:\Users\VivoBook\source\repos\Projek_Akhir\Projek_Akhir\obj\Debug\PAVISUAL.vbproj.CoreCompileInputs.cache
+C:\Users\VivoBook\source\repos\Projek_Akhir\Projek_Akhir\bin\Debug\PAVISUAL.exe.config
+C:\Users\VivoBook\source\repos\Projek_Akhir\Projek_Akhir\bin\Debug\PAVISUAL.exe
+C:\Users\VivoBook\source\repos\Projek_Akhir\Projek_Akhir\bin\Debug\PAVISUAL.pdb
+C:\Users\VivoBook\source\repos\Projek_Akhir\Projek_Akhir\bin\Debug\PAVISUAL.xml
+C:\Users\VivoBook\source\repos\Projek_Akhir\Projek_Akhir\obj\Debug\PAVISUAL.vbproj.CopyComplete
+C:\Users\VivoBook\source\repos\Projek_Akhir\Projek_Akhir\obj\Debug\PAVISUAL.exe
+C:\Users\VivoBook\source\repos\Projek_Akhir\Projek_Akhir\obj\Debug\PAVISUAL.xml
+C:\Users\VivoBook\source\repos\Projek_Akhir\Projek_Akhir\obj\Debug\PAVISUAL.pdb
+E:\Visual Basic\Projek_Akhir\Projek_Akhir\bin\Debug\PAVISUAL.exe.config
+E:\Visual Basic\Projek_Akhir\Projek_Akhir\bin\Debug\PAVISUAL.exe
+E:\Visual Basic\Projek_Akhir\Projek_Akhir\bin\Debug\PAVISUAL.pdb
+E:\Visual Basic\Projek_Akhir\Projek_Akhir\bin\Debug\PAVISUAL.xml
+E:\Visual Basic\Projek_Akhir\Projek_Akhir\obj\Debug\PAVISUAL.vbproj.AssemblyReference.cache
+E:\Visual Basic\Projek_Akhir\Projek_Akhir\obj\Debug\PAVISUAL.vbproj.SuggestedBindingRedirects.cache
+E:\Visual Basic\Projek_Akhir\Projek_Akhir\obj\Debug\PAVISUAL.Login.resources
+E:\Visual Basic\Projek_Akhir\Projek_Akhir\obj\Debug\PAVISUAL.FormUser.resources
+E:\Visual Basic\Projek_Akhir\Projek_Akhir\obj\Debug\PAVISUAL.FormAdmin.resources
+E:\Visual Basic\Projek_Akhir\Projek_Akhir\obj\Debug\PAVISUAL.Resources.resources
+E:\Visual Basic\Projek_Akhir\Projek_Akhir\obj\Debug\PAVISUAL.tes.resources
+E:\Visual Basic\Projek_Akhir\Projek_Akhir\obj\Debug\PAVISUAL.vbproj.GenerateResource.cache
+E:\Visual Basic\Projek_Akhir\Projek_Akhir\obj\Debug\PAVISUAL.vbproj.CoreCompileInputs.cache
+E:\Visual Basic\Projek_Akhir\Projek_Akhir\obj\Debug\PAVISUAL.vbproj.CopyComplete
+E:\Visual Basic\Projek_Akhir\Projek_Akhir\obj\Debug\PAVISUAL.exe
+E:\Visual Basic\Projek_Akhir\Projek_Akhir\obj\Debug\PAVISUAL.xml
+E:\Visual Basic\Projek_Akhir\Projek_Akhir\obj\Debug\PAVISUAL.pdb
